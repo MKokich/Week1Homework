@@ -1,13 +1,16 @@
+/* CSS Reset  */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Body styling */
 body {
     background-color: #d9dcd6;
 }
 
+/* Header position, font style and color */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* Header h1 positioning and font  */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Change of color for "SEO" portion */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Header nav positioning and font style  */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,12 +38,14 @@ body {
     font-size: 20px;  
 }
 
+/* Header nav li positioning  */
 .header nav li {
     list-style-type: none;
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Header section positioning and font  */
 .header section {
     padding-top: 15px;
     margin-right: 20px;
@@ -46,24 +54,18 @@ body {
     font-size: 20px;
 }
 
-.header nav ul {
-    list-style-type: none;
-}
-
-.header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
+/* Links styling  */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Paragraph font styling  */
 p {
     font-size: 16px;
 }
 
+/* Hero formatting and background image link  */
 .hero {
     height: 800px;
     width: 100%;
@@ -73,22 +75,26 @@ p {
     background-position: center;
 }
 
+/* Class used to float images left  */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Class used to float images right  */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Content formatting  */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Benefits styling and formatting  */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -112,12 +118,14 @@ p {
     text-align: center;
 }
 
+/* Benefit images formatting and positioning  */
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Article formatting and styling  */
 article {
     margin-bottom: 20px;
     padding: 50px;
@@ -138,6 +146,7 @@ article {
     font-size: 36px;
 }
 
+/* Footer styling  */
 .footer  {
     padding: 30px;
     clear: both;
